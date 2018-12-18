@@ -21,7 +21,7 @@
 }
 
 #customnavbar {
-  background: #116c66;
+  background: #c4dad8;
 }
 
 body {
@@ -31,12 +31,14 @@ body {
 
 .navbar {
   opacity: 0.8;
-  background: #116c66;
+  background: #0e5b56;
 }
 .navbar .nav-item {
   font-size: 1.0rem;
   /*padding-right: 1.4rem;*/
-  color: #fff !important;
+  /*font-family: serif; */
+  font-weight: bold;
+  
 }
 
 .info-header {
