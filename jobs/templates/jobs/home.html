@@ -1,639 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <linkrel="stylesheet"href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" 
-      integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
-      crossorigin="anonymous"
-    />
 
-    <!-- PRODUCTION LINKS -->
-
-    
-  
-      <link rel="stylesheet" href="../../../static/css2/bootstrap.css" />
-      <link rel="stylesheet" href="../../../static/css2/style.css" />
-       
-    
-    <!-- DEVELOPMENT LINKS ss -->
-
-    <!--
-    <link rel="stylesheet"href="../../../portfolio/static/css2/bootstrap.css"/>
-    <link rel="stylesheet" href="../../../portfolio/static/css2/style.css" />
-
-  -->
-    
-
-    <title>Linguastorm</title>
-  </head>
-
-
-  
-  
-    <!-- Cutom Navbar-2 -->
-
-    
-
-    <body data-spy="scroll" data-target="#main-nav" id="home">
-
-      <nav class="navbar navbar-expand-sm  navbar-dark  mb-0 sticky-top py-0 pl-0" id="main-nav">
-        
-          <a href="home.html"><img src="../../../static/l3.png" height="70" alt=""></a>
-          <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ">
-              <li class="nav-item active">
-                <a href="test.html" class="nav-link">Get to know us</a>
-              </li>
-              <li class="nav-item active">
-                <a href="#explore-head-section" class="nav-link">Our method</a>
-              </li>
-              <li class="nav-item active">
-                <a href="#create-head-section" class="nav-link">Test yourself!</a>
-              </li>
-              <li class="nav-item active dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Find your course</a>
-                  <div class="dropdown-menu">
-                      <a href="#" class="dropdown-item">Level 1</a>
-                      <a href="#" class="dropdown-item">Level 2</a>
-                      <a href="#" class="dropdown-item">Level 3</a>
-                  </div>
-              </li>
-              <li class="nav-item active">
-                  <a href="#create-head-section" class="nav-link">Meet our teachers</a>
-              </li>
-              <li class="nav-item active">
-                    <a href="#create-head-section" class="nav-link">Know our partners</a>
-              </li>
-            </ul>
-            <ul class="navbar-nav  ">
-                <li class="nav-item  active">
-                    <a href="#create-head-section" class="nav-link">Get in touch!</a>
-                 </li>
-            </ul>
-            <form class="form-inline ml-auto ">
-                <input type="text" class="form-control mr-2" placeholder="Search the site">
-                <button class="btn btn-outline-warning">Search</button>
-            </form>
-          </div>
-        
-      </nav>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Charm|Montserrat" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+    crossorigin="anonymous">
 
    
-    </body>
-
-
-    
-
-
-      
-    
-
   
+    <link rel="stylesheet" href="../../../static/style.css">
 
-    <!-- SHOWCASE SLIDER -->
+
+  <title>Bootstrap Theme</title>
+</head>
+
+<body>
+  <!-- START HERE -->
+
+  <!-- WHITE PAGE CONTAINER -->
+
+  <div id="whitepagecontainer" class="mx-auto">
+
+      <!-- NAVBAR -->
+    <div id="customnav" class="fixed-top mx-auto">
+      <div class="row align-items-center">
+
+        <div class="col-1">
+          <img src="../../../static/logo.png" alt="" width="120">
+        </div>
+
+        <div class="col-9  ml-5 pt-3 ">
+         <p id="p1" class="text-white"> Why Learn English with Us?  &nbsp; &nbsp; &nbsp; &nbsp; Our English Courses  &nbsp; &nbsp; &nbsp; &nbsp; 
+            English Learning Tips  &nbsp; &nbsp; &nbsp; &nbsp; Our Locations  &nbsp; &nbsp; &nbsp; &nbsp; Franchising 
+            &nbsp; &nbsp; &nbsp; &nbsp;  Careers  &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 
+            &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;Blog
+         </p>
+        </div>
+
+        <div class="col-1">
+          <button id="button1" class="mx-0"> Contact</button>
+        </div>
+        
+
+      </div>
+     </div>
+
+
+
+       <!-- SLIDER WITH INDICATORS -->
+       <div id="heroslider" class="carousel slide mb-0" data-ride="carousel">
+         <ol class="carousel-indicators">
+             <li class="active" data-target="#heroslider" data-slide-to="0"></li>
+             <li data-target="#heroslider" data-slide-to="1"></li>
+             <li data-target="#heroslider" data-slide-to="2"></li>
+         </ol>
+         <div class="carousel-inner">
+               <div class="carousel-item active">
+                 <img  class="d-block img-fluid"  src="../../../static/carousel-1.jpeg" alt="First Slide" width="1400" height="590" >
+          </div>
+          <div class="carousel-item">
+            <img class="d-block img-fluid" src="../../../static/carousel-2.jpg" alt="First Slide" width="1400" height="509">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block img-fluid" src="../../../static/carousel-3.jpg" alt="First Slide" width="1400" height="509">
+          </div>
+        </div>
+       </div>
+
+
+        <div class="jumbotron jumbotron-fluid my-0" id="section-2">
+          <h2 id="section2heading" >Get the support you need to learn English</h2>
+          <p id="p2" class="pb-3"> Learning something new is hard. English is no different.
+             At Wall Street English you <br>can  confident to get the support you need to achieve your goals.
+             With over <br> 400 centers in 28 territories, find your local center and say yes to learning <br> English now.
+          </p>
+
+          <button type="button" id="button2">  View our locations </button>  
+         
+        </div>
+
+
+        <div class="jumbotron jumbotron-fluid my-0" id="section-3">
+          <div class="row">
+            <div class="col-6" id="section-3-col-1">
+                <h2 id="section3heading" >Get the support you need to learn English</h2>
+                <p id="p3" class="pb-3"> Find out how four people around the world learned English 
+                  and achieved their dreams with Wall Street English in our video. <br> <br>
+                  Do you want to learn English? You can learn English for travel, business or for 
+                  socializing with family and friends. English can change your future and
+                   we can give you the best support to succeed here at Wall Street English. 
+                   Learn English today and achieve your dreams.
+                 </p>
+
+                 <button type="button" id="button3">  Say Yes and Start Learning </button>
+            </div>
+
+            <div class="col-6">
+              <video width="620" poster="../../../static/video1poster1.JPG" controls>
+                <source src="../../../static/AlexanderElena.mp4" type="video/mp4">
+                 Your browser does not support the video tag.
+                </video>
+            </div>
+            
+          </div>
+          
+        </div>
+ 
+        
+      
 
     
-    <section class="mt-0" id="showcase">
-      <div id="myCarousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item carousel-image-1 active">
-            <h1 class="d-inline display-3  text-danger offset-1 pl-5 ">
-              Shock
-            </h1>
-            <h1 class="d-inline display-3 mt-5 text-white ">your world</h1>
+       
+  </div>
 
-            <div class="row mt-0">
-              <div class="col-lg-6 offset-5 mt-0">
-                <img
-                  src="../../../static/d4.png"
-                  alt=""
-                  class="img-fluid d-none d-lg-block"
-                />
-              </div>
-            </div>
 
-            <div class="container">
-              <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                <h1 class="d-inline display-3 ">Lone</h1>
-                <h1 class="d-inline display-3 text-danger">Wolf</h1>
 
-                <a href="#" class="btn btn-warning ">Order Now</a>
-              </div>
-            </div>
-          </div>
 
-          <div class="carousel-item carousel-image-2">
-            <div></div>
-            <div></div>
+  <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+    crossorigin="anonymous"></script>
 
-            <h1
-              class="d-inline display-3  text-danger offset-1 pl-5 pt-5 mt-5 "
-            >
-              Empower
-            </h1>
-            <h1 class="d-inline display-3 mt-5 text-white ">your kids</h1>
-            <div class="container">
-              <div class="carousel-caption d-none d-sm-block mb-5 text-right">
-                <h1 class="display-3 text-danger">DJI Spark</h1>
+  <script>
+    // Get the current year for the copyright
+    $('#year').text(new Date().getFullYear());
+  </script>
+</body>
 
-                <a href="#" class="btn btn-warning ">Order Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="carousel-item carousel-image-3">
-            <div class="container ml-0 mt-0">
-              <h1
-                class="d-inline display-3  text-danger offset-1 pl-5 pt-5 mt-5 "
-              >
-                Power
-              </h1>
-              <h1 class="d-inline display-3 mt-5 text-white ">your dreams</h1>
-              <div class="carousel-caption d-none d-sm-block text-right mb-5">
-                <h1 class="display-3 text-danger ">DJI Tello EDU</h1>
-
-                <a href="#" class="btn btn-warning ">Order Now</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <a href="#myCarousel" data-slide="prev" class="carousel-control-prev">
-          <span class="carousel-control-prev-icon"></span>
-        </a>
-
-        <a href="#myCarousel" data-slide="next" class="carousel-control-next">
-          <span class="carousel-control-next-icon"></span>
-        </a>
-      </div>
-    </section>
-
-    <!-- VIDEO PLAY -->
-
-    <section id="video-play">
-      <div class="dark-overlay">
-        <div class="row">
-          <div class="col">
-            <div class="container pt-4">
-              <a
-                href="#"
-                class="video"
-                data-video="https://www.youtube.com/embed/FVYxxHn8R-k"
-                data-toggle="modal"
-                data-target="#videoModal"
-              >
-                <i class="fas fa-play fa-3x"></i>
-              </a>
-              <h1>See What We Do</h1>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- BOXES -->
-    <section id="boxes" class="py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="card text-center border-primary mb-resp">
-              <div class="card-body">
-                <h3 class="text-primary">Flight duration</h3>
-                <p class="text-muted">
-                  Industry leading fligth duration of upto 4 hours.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card text-center bg-primary text-white mb-resp">
-              <div class="card-body">
-                <h3>Dimensions</h3>
-                <p>
-                  Conveniently portable and modular. Wingspan 2.2m, lenght 0.9m.
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card text-center border-primary mb-resp">
-              <div class="card-body">
-                <h3 class="text-primary">Useful load</h3>
-                <p class="text-muted">
-                  1 kg for 2 hour fligth time and 0.5kg for 4 hour fligth time
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3">
-            <div class="card text-center bg-primary text-white">
-              <div class="card-body">
-                <h3>Start mode</h3>
-                <p>Unique vertical takeoff and revoery system</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ABOUT / WHY SECTION -->
-
-    <section id="about" class="py-5  text-center bg-light">
-      <div class="container mb-5 mt-5">
-        <div class="row">
-          <div class="col">
-            <div class="info-header mb-5">
-              <h1 class="text-primary pb-2 pt-5">Why Our Drone?</h1>
-              <p class="lead pb-3">
-                A portable modular drone capable of lauch and recovery from any
-                terrain.
-              </p>
-            </div>
-
-            <!-- ACCORDION -->
-            <div id="accordion">
-              <div class="card">
-                <div class="card-header">
-                  <h5 class="mb-0">
-                    <div
-                      href="#collapse1"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i> Get Inspired
-                    </div>
-                  </h5>
-                </div>
-
-                <div id="collapse1" class="collapse show">
-                  <div class="card-body">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Impedit odit laborum qui, debitis, sequi dolores nobis
-                    mollitia labore quasi earum laboriosam nihil cupiditate
-                    magnam iusto nostrum doloremque accusantium repudiandae
-                    expedita autem et, repellendus suscipit consequatur! Alias,
-                    maiores amet sunt ab inventore illo, deleniti facilis
-                    consequatur tenetur nam pariatur fuga nisi!
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header">
-                  <h5 class="mb-0">
-                    <div
-                      href="#collapse2"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i> Obtain Aerial
-                      intelligence
-                    </div>
-                  </h5>
-                </div>
-
-                <div id="collapse2" class="collapse">
-                  <div class="card-body">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Impedit odit laborum qui, debitis, sequi dolores nobis
-                    mollitia labore quasi earum laboriosam nihil cupiditate
-                    magnam iusto nostrum doloremque accusantium repudiandae
-                    expedita autem et, repellendus suscipit consequatur! Alias,
-                    maiores amet sunt ab inventore illo, deleniti facilis
-                    consequatur tenetur nam pariatur fuga nisi!
-                  </div>
-                </div>
-              </div>
-
-              <div class="card">
-                <div class="card-header">
-                  <h5 class="mb-0">
-                    <div
-                      href="#collapse3"
-                      data-toggle="collapse"
-                      data-parent="#accordion"
-                    >
-                      <i class="fas fa-arrow-circle-down"></i> Expand your
-                      horizon
-                    </div>
-                  </h5>
-                </div>
-
-                <div id="collapse3" class="collapse">
-                  <div class="card-body">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Impedit odit laborum qui, debitis, sequi dolores nobis
-                    mollitia labore quasi earum laboriosam nihil cupiditate
-                    magnam iusto nostrum doloremque accusantium repudiandae
-                    expedita autem et, repellendus suscipit consequatur! Alias,
-                    maiores amet sunt ab inventore illo, deleniti facilis
-                    consequatur tenetur nam pariatur fuga nisi!
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- AUTHORS -->
-    <section id="authors" class="my-5 text-center">
-      <div class="container ">
-        <div class="row">
-          <div class="col">
-            <div class="info-header mb-5">
-              <h3 class="text-primary pb-3 pt-5"></h3>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col">
-            <div class="info-header mb-5">
-              <h1 class="text-primary pb-3 pt-5">Meet Our Team</h1>
-              <p class="lead">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias
-                laborum numquam aperiam dolores a porro!
-              </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="../../../static/b1.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Bagrat B.</h3>
-                <h5 class="text-muted">CEO</h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                  commodi nostrum, ab libero voluptas officia.
-                </p>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a href="http://facebook.com">
-                      <i class="fab fa-facebook"></i>
-                    </a>
-                  </div>
-                  <div class="p-4">
-                    <a href="http://twitter.com">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </div>
-                  <div class="p-4">
-                    <a href="http://instagram.com">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="../../../static/v1.jpg"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Varazdat V.</h3>
-                <h5 class="text-muted">CMO</h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                  commodi nostrum, ab libero voluptas officia.
-                </p>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a href="http://facebook.com">
-                      <i class="fab fa-facebook"></i>
-                    </a>
-                  </div>
-                  <div class="p-4">
-                    <a href="http://twitter.com">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </div>
-                  <div class="p-4">
-                    <a href="http://instagram.com">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="card">
-              <div class="card-body">
-                <img
-                  src="../../../static/m1.JPG"
-                  alt=""
-                  class="img-fluid rounded-circle w-50 mb-3"
-                />
-                <h3>Marianna A.</h3>
-                <h5 class="text-muted">COO</h5>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed
-                  commodi nostrum, ab libero voluptas officia.
-                </p>
-                <div class="d-flex justify-content-center">
-                  <div class="p-4">
-                    <a href="http://facebook.com">
-                      <i class="fab fa-facebook"></i>
-                    </a>
-                  </div>
-                  <div class="p-4">
-                    <a href="http://twitter.com">
-                      <i class="fab fa-twitter"></i>
-                    </a>
-                  </div>
-                  <div class="p-4">
-                    <a href="http://instagram.com">
-                      <i class="fab fa-instagram"></i>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- CONTACT -->
-    <section id="contact" class="bg-light py-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h3>Get In Touch</h3>
-            <p class="lead">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-              temporibus!
-            </p>
-            <form>
-              <div class="input-group input-group-lg mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">
-                    <i class="fas fa-user"></i>
-                  </span>
-                </div>
-                <input type="text" class="form-control" placeholder="Name" />
-              </div>
-
-              <div class="input-group input-group-lg mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">
-                    <i class="fas fa-envelope"></i>
-                  </span>
-                </div>
-                <input type="text" class="form-control" placeholder="Email" />
-              </div>
-
-              <div class="input-group input-group-lg mb-3">
-                <div class="input-group-prepend">
-                  <span class="input-group-text">
-                    <i class="fas fa-pencil-alt"></i>
-                  </span>
-                </div>
-                <textarea
-                  class="form-control"
-                  placeholder="Message"
-                  rows="5"
-                ></textarea>
-              </div>
-
-              <input
-                type="submit"
-                value="Submit"
-                class="btn btn-primary btn-block btn-lg"
-              />
-            </form>
-          </div>
-
-          <div class="col-lg-3 align-self-center">
-            <img src="img/mlogo.png" alt="" class="img-fluid" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- FOOTER -->
-    <footer id="main-footer" class="py-5 bg-primary text-white">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-12 ml-auto">
-            <p class="lead">
-              &copy; Spectre Aerospace LLC <span id="year"></span>. 2
-              Agatangeghos, Yerevan 0052, Armenia
-            </p>
-            All rights reserved.
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <!-- VIDEO MODAL -->
-    <div class="modal fade" id="videoModal">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-body">
-            <button class="close" data-dismiss="modal">
-              <span>&times;</span>
-            </button>
-            <iframe
-              src=""
-              frameborder="0"
-              height="350"
-              width="100%"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script
-      src="http://code.jquery.com/jquery-3.3.1.min.js"
-      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-      integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-      crossorigin="anonymous"
-    ></script>
-
-    <script>
-      // Configure Slider
-      $('.carousel').carousel({
-        interval: 6000,
-        pause: 'hover'
-      });
-
-      // Video Play
-      $(function() {
-        // Auto play modal video
-        $('.video').click(function() {
-          var theModal = $(this).data('target'),
-            videoSRC = $(this).attr('data-video'),
-            videoSRCauto =
-              videoSRC +
-              '?modestbranding=1&rel=0&controls=0&showinfo=0&html5=1&autoplay=1';
-          $(theModal + ' iframe').attr('src', videoSRCauto);
-          $(theModal + ' button.close').click(function() {
-            $(theModal + ' iframe').attr('src', videoSRC);
-          });
-        });
-      });
-
-      // Get the current year for the copyright
-      $('#year').text(new Date().getFullYear());
-
-      // Init Scrollspy
-      $('body').scrollspy({ target: '#main-nav' });
-
-      // Smooth Scrolling
-      $('#main-nav a').on('click', function(event) {
-        if (this.hash !== '') {
-          event.preventDefault();
-
-          const hash = this.hash;
-
-          $('html, body').animate(
-            {
-              scrollTop: $(hash).offset().top
-            },
-            800,
-            function() {
-              window.location.hash = hash;
-            }
-          );
-        }
-      });
-    </script>
-  </body>
 </html>
