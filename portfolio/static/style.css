@@ -162,7 +162,7 @@ border-left-width: 1rem;
 
 
 #section-2 {
-  background-image: url("/img/2-worlds.png") !important;
+  background-image: url("/static/2-worlds.png") !important;
   background-color: rgb(255, 255, 255) !important;
   }
 
