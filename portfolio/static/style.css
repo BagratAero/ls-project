@@ -22,7 +22,7 @@ border-left-width: 1rem;
 
 #customnav{
 /* background: #018181   !important; */
- background: #116c67   !important; 
+background: #116c67   !important; 
 width: 1400px;
 border-top-color: rgb(255, 255, 255); 
 border-top-style: solid;
@@ -96,7 +96,7 @@ border-left-width: 1rem;
   font-size: 13.5px;
   font-family: 'Charm', cursive;
   font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
+  font-weight: 700;
   text-transform: none;
   line-height: 1.5em;
 }
